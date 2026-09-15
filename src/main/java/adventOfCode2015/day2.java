@@ -1,4 +1,4 @@
-package adventOfCode2015;
+package main.java.adventOfCode2015;
 
 import java.util.ArrayList;
 import java.util.Arrays;

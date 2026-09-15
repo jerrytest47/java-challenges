@@ -1,4 +1,4 @@
-package javaBrushUp;
+package main.java.javaBrushUp;
 
 import java.lang.reflect.Method;
 

@@ -1,4 +1,4 @@
-package adventOfCode2015;
+package main.java.adventOfCode2015;
 
 public class day6_Part2 {
 

@@ -1,4 +1,4 @@
-package javaBrushUp;
+package main.java.javaBrushUp;
 
 public class javaMethods {
 

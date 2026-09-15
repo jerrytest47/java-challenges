@@ -1,4 +1,4 @@
-package com.example.qa;
+package main.java.com.example.qa;
 
 /**
  * Hello world!

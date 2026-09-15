@@ -1,5 +1,4 @@
-package javaBrushUp;
-
+package main.java.javaBrushUp;
 public class rotateMatrix {
     static int[][] matrix = new  int[988][988];
 
