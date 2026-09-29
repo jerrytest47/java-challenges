@@ -4,15 +4,17 @@ public class palindromeChecker {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(isPalindrome("blargh"));
+		System.out.println(isPalindrome("tacocat"));
 
 	}
 	
 	static String isPalindrome(String s) {
 		
 		if(s == null) return null;
-		int i = 0; int j = s.length()-1;
+		int i = 0; 
+		int j = s.length()-1;
 		char[] arr = s.toCharArray();
+
 		while(i<j) {
 			if (arr[i]==arr[j]) {
 				i++;j--;
