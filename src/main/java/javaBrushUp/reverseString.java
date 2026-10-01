@@ -11,9 +11,13 @@ public class reverseString {
 	}
 	
 	static String reverseString1(String s) {
-		if(s==null) { return null;}
+		if(s==null) {
+			 return null;}
+
 		char[] ar = s.toCharArray();
-		int i = 0; int j = s.length()-1;	
+		int i = 0;
+		int j = s.length()-1;
+
 		while (i<j) {
 			char temp = ar[i];
 			ar[i] = ar[j];

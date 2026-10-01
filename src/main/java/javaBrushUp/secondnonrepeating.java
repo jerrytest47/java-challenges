@@ -1,11 +1,13 @@
 package main.java.javaBrushUp;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class secondnonrepeating {
     
 public static void main(String[] args) {
     String input = "aabbccdeffgghi";
+    System.out.println(stringParser(input));
 }
 
 public static char stringParser(String input){
@@ -15,7 +17,7 @@ public static char stringParser(String input){
         return '\0';
     }
 
-    if (input.isBlank() || input.isBlank()) {
+    if (input.isBlank() || input.isEmpty()) {
         System.out.println("not a valid string");
         return '\0';
     }
@@ -33,9 +35,22 @@ public static char stringParser(String input){
 
     }
 
+    for(Map.Entry<Character,Integer> entry : solution.entrySet() ){
+    Character Key = entry.getKey();
+    Integer Value = entry.getValue();
+    if(counter>1){
+        break;
+    }
+    if (Value == 1) {
+        charSolution[counter] = Key;
+        counter++;
+        System.out.println("Key: "+Key+" " + "Value: "+ Value);
+    }
+    }
 
 
-    return '\0';
+
+    return charSolution[1];
 }
 
 }
